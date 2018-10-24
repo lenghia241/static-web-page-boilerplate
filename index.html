@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/icon.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./img/favicon.ico">
+
+  <title>Niko Portfolio</title>
+</head>
+
+<body>
+
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+    <label for="navi-toggle" class="navigation__button">
+      <span class="navigation__icon">&nbsp;</span>
+    </label>
+
+    <div class="navigation__background">&nbsp;</div>
+
+    <nav class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation__item"><a href="#about-me" class="navigation__link"><span>01</span>About Me</a></li>
+        <li class="navigation__item"><a href="#my-skills" class="navigation__link"><span>02</span>My skills</a></li>
+        <li class="navigation__item"><a href="#my-portfolio" class="navigation__link"><span>03</span>My Portfolio</a></li>
+        <li class="navigation__item"><a href="#contact-detail" class="navigation__link"><span>04</span>Contact
+            Information</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <header class="header">
+    <div class="header__logo-box">
+      <img src="./img/logo-niko.png" alt="Logo" class="header__logo">
+    </div>
+    <div class="header__text-box">
+      <h1 class="heading">
+        <span class="heading-primary">I am Nghia,</span>
+        <span class="heading-secondary">A Front-end Developer</span>
+      </h1>
+
+      <a href="https://drive.google.com/file/d/13YhDvzvDNifrQVFI-QN6SKDK1gLL_UBQ/view?usp=sharing" class="btn btn-white btn-animated"
+        target="_blank">Download my resume</a>
+
+    </div>
+  </header>
+
+  <main>
+    <section class="section-about" id="about-me">
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-2">
+          About Me
+        </h2>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-2">
+          <h2 class="heading-tertiarary u-margin-bottom-small">Who I am</h2>
+          <p class="paragraph">
+            I am living in Helsinki, Finland. I am from Hanoi, Vietnam<br />
+            I love coding, traveling and being around with my dog - a Cardigan Corgi name Puma <i class="fas fa-heart"></i>
+            <br />
+
+          </p>
+
+          <h2 class="heading-tertiarary u-margin-bottom-small">What I do</h2>
+          <p class="paragraph">
+            Front-end: with JS and mordern Javascript framework like React, React Native.<br />
+            Back-end: Nodejs, MongoDB and Graphql <br>
+            I love to make beautiful and user-friendly UI/UX<br />
+          </p>
+
+          <a href="#" id="show-more" class="btn-text">See More <i class="fas fa-arrow-right"></i></a>
+
+        </div>
+
+        <div class="col-1-of-2">
+          <div class="composition">
+            <img src="img/puma-1.JPG" alt="photo 1" class="composition__photo composition__photo--p1">
+            <img src="img/puma-2.JPG" alt="photo 2" class="composition__photo composition__photo--p2">
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="section-features" id="my-skills">
+
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-3">
+          I am working on
+        </h2>
+      </div>
+
+      <div class="row">
+
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <i class="feature-box__icon fab fa-react"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">React / React Native</h3>
+            <p class="feature-box__text">
+              I have been learning React for 2 years with many font-end and full-stack projects.<br>
+              React and React Native is my love and they make web and mobile application development become so easy and
+              fast <br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <i class="feature-box__icon fas fa-sitemap"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">Redux</h3>
+            <p class="feature-box__text">
+              Scalable React project can not be without Redux - A state management framework. <br />
+              I am also familiar with other dependencies to go with Redux such as Redux Thunk and Redux Form...
+            </p>
+          </div>
+        </div>
+
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <i class="feature-box__icon fab fa-node"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">NodeJS/MongoDB</h3>
+            <p class="feature-box__text">
+              I have knowledge of how to construct an API with user authentication and intergrate the
+              appication with Mongo database. <br />
+              But Node is a big world and there is much for me to explore.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <i class="feature-box__icon fab fa-sass"></i>
+            <h3 class="heading-tertiary u-margin-bottom-small">HTML/CSS/SASS</h3>
+            <p class="feature-box__text">
+              I am familiar with flexbox and grid layout in CSS and capable of making some nice web animation.<br>
+              This website is made with 95% HTML and SASS other is Jquery. <br>
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="section-portfolio" id="my-portfolio">
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-2">
+          My Portfolio
+        </h2>
+      </div>
+
+      <div class="row">
+
+        <div class="col-1-of-3">
+
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--1">
+
+              </div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--1">
+                  Social Network
+                </span>
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>Full Stack Project</li>
+                  <li>Social network for developers</li>
+                  <li>User authentication</li>
+                  <li>Create profile, show project on github</li>
+                  <li>Online CV</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card__side card__side--back card__side--back-1">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">
+                    Use
+                  </p>
+                  <div class="card__price-value">
+                    React, Redux, Node, Mongo, Materialize
+                  </div>
+                </div>
+                <a target="_blank" rel="noopener noreferrer" href="https://devnet-react.herokuapp.com/" class="btn btn-white">Live
+                  Version</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-1-of-3">
+
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--2">
+
+              </div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--2">
+                  Event Management Website
+                </span>
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>Front-End Project</li>
+                  <li>Create/edit event</li>
+                  <li>Show event locaion</li>
+                  <li>User friendly UI</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card__side card__side--back card__side--back-2">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">
+                    Use
+                  </p>
+                  <div class="card__price-value">
+                    React, Redux, Redux Thunk, Redux Form, SemanticUI
+                  </div>
+                </div>
+                <a target="_blank" rel="noopener noreferrer" href="http://eventistry.surge.sh/" class="btn btn-white"
+                  target="_blank">Live Version</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-1-of-3">
+
+          <div class="card">
+
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--3">
+
+              </div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--3">
+                  Multiple Step Form
+                </span>
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>Front End Project</li>
+                  <li>Form management in React</li>
+                  <li>Redux Form</li>
+                  <li>Reusable form for any website</li>
+                  <li>Custom Radio and Select button</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card__side card__side--back card__side--back-3">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">
+                    Use
+                  </p>
+                  <div class="card__price-value">
+                    React, Redux, CSS selector
+                  </div>
+                </div>
+                <a target="_blank" rel="noopener noreferrer" href="http://lets-talk-redux.surge.sh/" class="btn btn-white">Live
+                  Version</a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row" id="project-toggle" style="display: none;">
+
+        <div class="col-1-of-3">
+
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--2">
+
+              </div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--2">
+                  Virtual Shopping Cart
+                </span>
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>Cart system for e-commerce website</li>
+                  <li>React and Redux</li>
+                  <li>Local Storage</li>
+                  <li>Boostrap</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card__side card__side--back card__side--back-2">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">
+                    Use
+                  </p>
+                  <div class="card__price-value">
+                    React, MDBootstrap, Redux
+                  </div>
+                </div>
+                <a target="_blank" rel="noopener noreferrer" href="http://cart-project.surge.sh/" class="btn btn-white">Live
+                  Version</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-1-of-3">
+
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--3">
+
+              </div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--3">
+                  Blog Application
+                </span>
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>React/Redux Project</li>
+                  <li>A mobile friendly application</li>
+                  <li>For sharing blog and sort by category</li>
+                  <li>CRUD application</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card__side card__side--back card__side--back-3">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">
+                    Use
+                  </p>
+                  <div class="card__price-value">
+                    React, Redux, Materialize
+                  </div>
+                </div>
+                <a target="_blank" rel="noopener noreferrer" href="http://blog-app-redux.surge.sh/" class="btn btn-white">Live
+                  Version</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--1">
+              </div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--1">
+                  Tasks Management Project
+                </span>
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>React Project</li>
+                  <li>Self-learning React and Redux</li>
+                  <li>Redux structure</li>
+                  <li>Search Sort handling</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card__side card__side--back card__side--back-1">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">
+                    Use
+                  </p>
+                  <div class="card__price-value">
+                    React, Redux, Bootstrap, LocalStorage
+                  </div>
+                </div>
+                <a target="_blank" rel="noopener noreferrer" href="http://work-management.freevnn.com/" class="btn btn-white">Live
+                  Version</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="u-center-text u-margin-top-huge">
+        <a href="javascript:void(0)" class="btn btn-green" id="see-more">Show More</a>
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer class="footer" id="contact-detail">
+    <div class="footer__logo-box">
+      <img src="img/logo-niko.png" alt="Logo" class="footer__logo">
+    </div>
+
+    <div class="row">
+
+      <div class="col-2-of-3">
+        <h2 class="heading-tertiary u-margin-bottom-small">Contact Detail</h2>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <i class="fas fa-map-marker"></i>&nbsp; Rasinkatu 20, Vantaa
+          </li>
+          <li class="footer__item">
+            <i class="fas fa-phone-square"></i>&nbsp; (+358)4 6568 4477
+          </li>
+          <li class="footer__item">
+            <i class="fas fa-envelope-square"></i>&nbsp; nghia.neal@gmail.com
+          </li>
+          <br />
+        </ul>
+      </div>
+
+      <div class="col-1-of-3">
+        <h2 class="heading-tertiary u-margin-bottom-small map">Social Network</h2>
+        <ul class="footer__social-media">
+
+          <li class="footer__social-media--item">
+            <a href="https://github.com/lenghia241" class="footer__social-media__link fa fa-github" target="_blank"></a>
+          </li>
+          <li class="footer__social-media--item">
+            <a href="https://www.linkedin.com/in/chinh-nghia-le-b22573151/" class="footer__social-media__link fa fa-linkedin"
+              target="_blank"></a>
+          </li>
+          <li class="footer__social-media--item">
+            <a href="https://www.facebook.com/nealvip241" class="footer__social-media__link fa fa-facebook" target="_blank"></a>
+          </li>
+          <li class="footer__social-media--item">
+            <a href="https://www.instagram.com/niko.le241/" class="footer__social-media__link fa fa-instagram" target="_blank"></a>
+          </li>
+        </ul>
+
+
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- 
+        <section class="grid-test">
+            <div class="row">
+                <div class="col-1-of-2"> Col 1 of 2</div>
+                <div class="col-1-of-2"> Col 1 of 2</div>
+            </div>
+            
+            <div class="row">
+                <div class="col-1-of-3"> Col 1 of 3</div>
+                <div class="col-1-of-3"> Col 1 of 3</div>
+                <div class="col-1-of-3"> Col 1 of 3</div>
+            </div>
+        
+            <div class="row">
+                <div class="col-1-of-3"> Col 1 of 3</div>
+                <div class="col-2-of-3"> Col 2 of 3</div>
+            </div>
+        
+            <div class="row">
+                <div class="col-1-of-4"> Col 1 of 4</div>
+                <div class="col-1-of-4"> Col 1 of 4</div>
+                <div class="col-2-of-4"> Col 2 of 4</div>
+            </div>
+        
+            <div class="row">
+                <div class="col-1-of-4"> Col 1 of 4</div>
+                <div class="col-3-of-4"> Col 3 of 4</div>
+            </div>
+
+        </section> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+
+      $("#see-more").click(function () {
+        $("#project-toggle").slideToggle();
+        if ($("#see-more").text() == "Show More") {
+          $("#see-more").text("Show Less")
+        } else {
+          $("#see-more").text("Show More")
+        }
+      });
+
+      $(".navigation__link").click(function () {
+        $("#navi-toggle").click();
+      });
+    });
+
+    $("#show-more").click(function () {
+      $('html, body').animate({
+        scrollTop: $("#my-skills").offset().top
+      }, 500);
+    });
+
+
+  </script>
+
+</body>
+
+</html>

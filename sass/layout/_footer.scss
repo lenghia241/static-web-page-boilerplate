@@ -1,0 +1,66 @@
+.footer {
+  background-color: $color-grey-dark-3;
+  padding: 4rem 0;
+  margin-top: -15rem;
+  font-size: 1.4rem;
+  color: $color-grey-light-1;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 0 100%, 0 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 0 100%, 0 25%);
+
+  @include respond(tab-port) {
+    padding: 8rem 0;
+  }
+
+  &__logo-box {
+    padding-top: 6rem;
+    text-align: center;
+    margin-bottom: 8rem;
+
+    @include respond(tab-port) {
+      margin-bottom: 6rem;
+    }
+  }
+
+  &__logo {
+    width: 10rem;
+    height: auto;
+  }
+
+  &__list {
+    list-style: none;
+  }
+
+  &__item {
+    display: block;
+    font-size: 2rem;
+  }
+
+  &__social-media {
+    padding: 2rem 0;
+    font-size: 3rem;
+    list-style: none;
+
+    &--item {
+      display: inline-block;
+      text-decoration: none;
+
+      &:not(:last-child) {
+        margin-right: 1.5rem;
+      }
+    }
+
+    &__link {
+      &:link,
+      &:visited {
+        color: $color-grey-light-1;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      &:hover,
+      &:active {
+        opacity: 0.7;
+      }
+    }
+  }
+}
